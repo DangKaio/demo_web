@@ -1,8 +1,13 @@
 升级pip3:python -m pip install --upgrade pip
 django-admin help
-目录说明: 项目名称：demo_web
-templates目录是HTML文件存放处
-manage.py是Django项目管理文件。
+目录说明: 
+    项目名称：demo_web
+    __init__.py 空文件
+    settings.py 主配置文件
+    urls.py 主路由
+    wsgi.py 网关接口
+    templates目录是HTML文件存放处
+    manage.py是Django项目管理文件。
 
 
 python manage.py startapp web_demo  创建了一个叫做web_demo的APP
