@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # mysql数据库
         'NAME': 'test',  # 数据库名
         'USER': 'root',  # 用户
-        'PASSWORD': '******',  # 密码
+        'PASSWORD': 'dk137046',  # 密码
         'HOST': '127.0.0.1',  # 本地
         'PORT': '3306',
     }
@@ -122,7 +122,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'  # 指的是你在浏览器中直接访问静态文件需要添加的前缀部分如http://127.0.0.1/statics/logo.jpg
+STATIC_URL = '/statics/'  # 指的是你在浏览器中直接访问静态文件需要添加的前缀部分如http://127.0.0.1/statics/logo.jpg
 # 静态目录配置目录
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'statics')
